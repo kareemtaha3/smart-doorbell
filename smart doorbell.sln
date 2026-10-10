@@ -1,0 +1,47 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "smart doorbell", "smart doorbell backend\smart doorbell.csproj", "{30B48515-699E-425B-99B9-D2F160CDAC8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simulators", "Simulators", "{E58A6EA9-8430-426A-8B74-BD235585CE8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraSimulator", "Simulators\CameraSimulator\CameraSimulator.csproj", "{17AACEF6-C2D7-4F3B-B13D-4310572D3BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonSimulator", "Simulators\ButtonSimulator\ButtonSimulator.csproj", "{C2629521-405D-44E7-8D11-0DD4AEC9236B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChimeSimulator", "Simulators\ChimeSimulator\ChimeSimulator.csproj", "{D94F81A4-71E5-4C3A-8B12-985E71A12F98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30B48515-699E-425B-99B9-D2F160CDAC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B48515-699E-425B-99B9-D2F160CDAC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B48515-699E-425B-99B9-D2F160CDAC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B48515-699E-425B-99B9-D2F160CDAC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17AACEF6-C2D7-4F3B-B13D-4310572D3BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AACEF6-C2D7-4F3B-B13D-4310572D3BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AACEF6-C2D7-4F3B-B13D-4310572D3BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AACEF6-C2D7-4F3B-B13D-4310572D3BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2629521-405D-44E7-8D11-0DD4AEC9236B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2629521-405D-44E7-8D11-0DD4AEC9236B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2629521-405D-44E7-8D11-0DD4AEC9236B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2629521-405D-44E7-8D11-0DD4AEC9236B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94F81A4-71E5-4C3A-8B12-985E71A12F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94F81A4-71E5-4C3A-8B12-985E71A12F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94F81A4-71E5-4C3A-8B12-985E71A12F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94F81A4-71E5-4C3A-8B12-985E71A12F98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17AACEF6-C2D7-4F3B-B13D-4310572D3BE3} = {E58A6EA9-8430-426A-8B74-BD235585CE8B}
+		{C2629521-405D-44E7-8D11-0DD4AEC9236B} = {E58A6EA9-8430-426A-8B74-BD235585CE8B}
+		{D94F81A4-71E5-4C3A-8B12-985E71A12F98} = {E58A6EA9-8430-426A-8B74-BD235585CE8B}
+	EndGlobalSection
+EndGlobal

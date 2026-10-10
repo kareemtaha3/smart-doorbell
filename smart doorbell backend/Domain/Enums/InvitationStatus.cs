@@ -1,0 +1,8 @@
+namespace smart_doorbell.Domain.Enums;
+
+public enum InvitationStatus
+{
+    Pending,
+    Accepted,
+    Declined
+}

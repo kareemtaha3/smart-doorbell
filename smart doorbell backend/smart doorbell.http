@@ -1,0 +1,6 @@
+@smart_doorbell_HostAddress = http://localhost:5147
+
+GET {{smart_doorbell_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
