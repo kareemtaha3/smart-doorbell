@@ -7,6 +7,8 @@ The system features real-time device communication between hardware simulators (
 ---
 
 ## 🏗️ Architecture & Features
+<img width="1497" height="522" alt="image" src="https://github.com/user-attachments/assets/0d0def5d-ff61-40c2-95cf-55159c591c69" />
+
 
 ### 1. ASP.NET Core Backend (`smart doorbell backend`)
 - **Clean Architecture**: Decoupled into `Domain`, `Application`, `Infrastructure`, and `Presentation` layers.
